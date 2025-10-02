@@ -17,7 +17,7 @@ document.getElementById('fetch-gif-btn').addEventListener('click', async () => {
             const img = document.createElement('img');
             img.src = url;
             img.alt = query;
-            img.classList.add('img-fluid', 'col-3', 'mb-3', 'rounded,', 'shadow-sm');
+            img.classList.add('img-fluid', 'col-3', 'mb-3', 'rounded', 'shadow-sm');
             gifContainer.appendChild(img);
         });
     } else {
